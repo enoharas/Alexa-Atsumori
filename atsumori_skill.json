@@ -1,0 +1,1077 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "もりのどうぶつたち",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "ItemsIntent",
+                    "slots": [
+                        {
+                            "name": "fish",
+                            "type": "fish"
+                        },
+                        {
+                            "name": "insects",
+                            "type": "insects"
+                        }
+                    ],
+                    "samples": [
+                        "{insects} ってどんな虫",
+                        "{fish} ってどんな魚",
+                        "{fish} とは",
+                        "{fish}",
+                        "{fish} について教えて",
+                        "{fish} ってなに",
+                        "{insects} ってなに",
+                        "{insects} とは",
+                        "{insects} について教えて",
+                        "{insects}"
+                    ]
+                },
+                {
+                    "name": "PriceIntent",
+                    "slots": [
+                        {
+                            "name": "fish",
+                            "type": "fish"
+                        },
+                        {
+                            "name": "insects",
+                            "type": "insects"
+                        }
+                    ],
+                    "samples": [
+                        "{insects} はいくらで売れる",
+                        "{fish} はいくらで売れる",
+                        "{insects} っていくらで売れる",
+                        "{fish} っていくらで売れる",
+                        "{insects} の価格は",
+                        "{insects} の値段は",
+                        "{insects} の値段を教えて",
+                        "{insects} の価格を教えて",
+                        "{insects} っていくら",
+                        "{insects} はいくら",
+                        "{fish} の値段は",
+                        "{fish} の価格は",
+                        "{fish} の価格を教えて",
+                        "{fish} っていくら",
+                        "{fish} はいくら",
+                        "{fish} の値段を教えて"
+                    ]
+                },
+                {
+                    "name": "SeasonBeginIntent",
+                    "slots": [
+                        {
+                            "name": "season",
+                            "type": "season"
+                        },
+                        {
+                            "name": "kind",
+                            "type": "kind"
+                        }
+                    ],
+                    "samples": [
+                        "{season} から釣れる {kind} って何",
+                        "{season} から釣れる {kind} を教えて",
+                        "{season} から釣れる {kind} は",
+                        "{season} からとれる {kind} って何",
+                        "{season} からとれる {kind} を教えて",
+                        "{season} からとれる {kind} は"
+                    ]
+                },
+                {
+                    "name": "SeasonNormalIntent",
+                    "slots": [
+                        {
+                            "name": "season",
+                            "type": "season"
+                        },
+                        {
+                            "name": "kind",
+                            "type": "kind"
+                        }
+                    ],
+                    "samples": [
+                        "{season} に釣れる高価な {kind} を教えて",
+                        "{season} にとれる高価な {kind} はなに",
+                        "{season} に釣れる {kind} を教えて",
+                        "{season} にとれる {kind} を教えて",
+                        "{season} に釣れる {kind} はなに",
+                        "{season} にとれる {kind} はなに"
+                    ]
+                },
+                {
+                    "name": "SeasonEndIntent",
+                    "slots": [
+                        {
+                            "name": "season",
+                            "type": "season"
+                        },
+                        {
+                            "name": "kind",
+                            "type": "kind"
+                        }
+                    ],
+                    "samples": [
+                        "{season} までに釣っておきたい {kind} を教えて",
+                        "{season} までに釣っておきたい {kind} はなに",
+                        "{season} までにとっておきたい {kind} を教えて",
+                        "{season} までにとっておきたい {kind} はなに",
+                        "{season} で釣れなくなる {kind} を教えて",
+                        "{season} で釣れなくなる {kind} はなに",
+                        "{season} でとれなくなる {kind} はなに",
+                        "{season} で終わる {kind} はなに",
+                        "{season} でとれなくなる {kind} を教えて",
+                        "{season} で終わる {kind} を教えて"
+                    ]
+                },
+                {
+                    "name": "HabitatIntent",
+                    "slots": [
+                        {
+                            "name": "fish",
+                            "type": "fish"
+                        },
+                        {
+                            "name": "insects",
+                            "type": "insects"
+                        }
+                    ],
+                    "samples": [
+                        "{insects} はいつとれる",
+                        "{fish} はいつ釣れる",
+                        "{insects} はいつどこでとれる",
+                        "{fish} はいつどこで釣れる",
+                        "{insects} はどこでとれるか教えて",
+                        "{insects} はどこでとれる",
+                        "{fish} はどこて釣れるか教えて",
+                        "{fish} はどこでとれる",
+                        "{fish} はどこで釣れる"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "fish",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "シーラカンス"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "デメニギス"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "リュウグウノツカイ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "チョウチンアンコウ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "コバンザメ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ジンベエザメ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "サメ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "シュモクザメ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ノコギリザメ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "エイ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "マンボウ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "シイラ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ロウニンアジ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "カジキ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "マグロ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ハナヒゲウツボ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ウツボ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "イカ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ヒラメ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "カレイ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "スズキ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "イシダイ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "アジ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "アンチョビ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ハリセンボン"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "フグ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ミノカサゴ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ナポレオンフィッシュ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "チョウチョウウオ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ナンヨウハギ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "クマノミ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "タツノオトシゴ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "クリオネ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "チョウザメ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "エンドリケリー"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ピラルク"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ガー"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ドラド"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "アロワナ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ピラニア"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "レインボーフィッシュ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ネオンテトラ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ベタ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "エンゼルフィッシュ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ドクターフィッシュ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "グッピー"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "シャンハイガニ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "キングサーモン"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "サケ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "イトウ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ゴールデントラウト"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "オオイワナ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ヤマメ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "アユ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ワカサギ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "パイク"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ティラピア"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ブラックバス"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "イエローパーチ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ブルーギル"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ライギョ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ナマズ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ドジョウ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ドンコ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "カエル"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "オタマジャクシ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "カミツキガメ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "スッポン"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ザリガニ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "メダカ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ランチュウ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "デメキン"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "キンギョ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ニシキゴイ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "コイ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ウグイ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "フナ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "オイカワ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "タナゴ"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "insects",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "サソリ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "タランチュラ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "クモ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ムカデ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ダンゴムシ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "カタツムリ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ノミ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "カ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ハエ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "フナムシ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ヤドカリ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "アリ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ミノムシ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "コノハムシ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ナナフシ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ヘラクレスオオカブト"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ゾウカブト"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "コーサカスオオカブト"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "カブトムシ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ギラファノコギリクワガタ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "オウゴンオニクワガタ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ホソアカクワガタ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ニジイロクワガタ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "オオクワガタ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ミヤマクワガタ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ノコギリクワガタ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ゴライアスオオツノハナムグリ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "カナブン"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "プラチナコガネ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "オオセンチコガネ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "フンコロガシ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ホウセキゾウムシ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ルリボシカマキリ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ゴマダラカミキリ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "バイオリンムシ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "タマムシ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ハンミョウ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "テントウムシ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ジンメンカメムシ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "カメムシ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "タガメ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ゲンゴロウ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "アメンボ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "オケラ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ホタル"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "イトトンボ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "オニヤンマ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ギンヤンマ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "アキアカネ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "セミのぬけがら"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ヒグラシ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ツクツクホウシ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "クマゼミ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ミンミンゼミ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "アブラゼミ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ハチ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ミツバチ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ハナカマキリ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "カマキリ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "スズムシ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "コオロギ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "キリギリス"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "イナゴ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "トノサマバッタ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ショウリョウバッタ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ニシキオオツバメガ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ヨナグニサン"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ガ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "アレキサンドラトリバネアゲハ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "アカエリトリバネアゲハ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ミイロタテハ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "モルフォチョウ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "オオカバマダラ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "オオムラサキ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "オオゴマダラ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "アオスジアゲハ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "カラスアゲハ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "アゲハチョウ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "モンキチョウ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "モンシロチョウ"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "season",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "来月"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "今月"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "十二月"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "十一月"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "十月"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "九月"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "八月"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "七月"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "六月"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "五月"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "四月"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "三月"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "二月"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "一月"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "kind",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "虫",
+                                "synonyms": [
+                                    "インセクト",
+                                    "昆虫"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "魚",
+                                "synonyms": [
+                                    "フィッシュ",
+                                    "魚類"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
